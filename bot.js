@@ -1,5 +1,4 @@
 const Discord = require("discord.js");
-const client = new Discord.Client();
 const superagent = require("superagent");
 const YouTube = require("simple-youtube-api");
 const ytdl = require("ytdl-core");
@@ -405,4 +404,4 @@ function play(guild, song) {
     serverQueue.textChannel.send(startembed);
 }
 // THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
+bot.login(process.env.BOT_TOKEN);
