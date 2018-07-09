@@ -1,4 +1,5 @@
 const Discord = require("discord.js");
+const client = new Discord.Client();
 const superagent = require("superagent");
 const YouTube = require("simple-youtube-api");
 const ytdl = require("ytdl-core");
