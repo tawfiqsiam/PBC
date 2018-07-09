@@ -8,9 +8,7 @@ const prefix = 'm!';
 var commandcooldown = new Set();
 var queue = new Map();
  
-var bot = new Discord.Client({
-    disableEveryone: true
-})
+var bot = new Discord.Client();
 var youtube = new YouTube(process.env.YTAPI);
 bot.on("ready", async () => {
     console.log("Mizuki Music Part is ready!")
