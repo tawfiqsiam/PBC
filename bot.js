@@ -283,4 +283,4 @@ For additional help,  `)
                         }
                     });
 // THIS  MUST  BE  THIS  WAY
-bot.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);
