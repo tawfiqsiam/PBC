@@ -153,7 +153,7 @@ client1.on("message", message => {
  
   if (command === "say") {
           message.delete()
-    message.channel.send(args.join(" ")).catch(console.error);
+    message.channel.send(args.join(" ")).catch(console.err);
   }
 });
 client2.on("message", message => {
@@ -165,7 +165,7 @@ client2.on("message", message => {
  
   if (command === "say") {
           message.delete()
-    message.channel.send(args.join(" ")).catch(console.error);
+    message.channel.send(args.join(" ")).catch(console.err);
   }
 });
 client3.on("message", message => {
@@ -177,7 +177,7 @@ client3.on("message", message => {
  
   if (command === "say") {
           message.delete()
-    message.channel.send(args.join(" ")).catch(console.error);
+    message.channel.send(args.join(" ")).catch(console.err);
   }
 });
 client4.on("message", message => {
@@ -189,7 +189,7 @@ client4.on("message", message => {
  
   if (command === "say") {
           message.delete()
-    message.channel.send(args.join(" ")).catch(console.error);
+    message.channel.send(args.join(" ")).catch(console.err);
   }
 });
 client5.on("message", message => {
@@ -201,7 +201,7 @@ client5.on("message", message => {
  
   if (command === "say") {
           message.delete()
-    message.channel.send(args.join(" ")).catch(console.error);
+    message.channel.send(args.join(" ")).catch(console.err);
   }
 });
 client6.on("message", message => {
@@ -213,7 +213,7 @@ client6.on("message", message => {
  
   if (command === "say") {
           message.delete()
-    message.channel.send(args.join(" ")).catch(console.error);
+    message.channel.send(args.join(" ")).catch(console.err);
   }
 });
 client7.on("message", message => {
@@ -225,7 +225,7 @@ client7.on("message", message => {
  
   if (command === "say") {
           message.delete()
-    message.channel.send(args.join(" ")).catch(console.error);
+    message.channel.send(args.join(" ")).catch(console.err);
   }
 });
 client8.on("message", message => {
@@ -237,7 +237,7 @@ client8.on("message", message => {
  
   if (command === "say") {
           message.delete()
-    message.channel.send(args.join(" ")).catch(console.error);
+    message.channel.send(args.join(" ")).catch(console.err);
   }
 });
 client9.on("message", message => {
@@ -249,7 +249,7 @@ client9.on("message", message => {
  
   if (command === "say") {
           message.delete()
-    message.channel.send(args.join(" ")).catch(console.error);
+    message.channel.send(args.join(" ")).catch(console.err);
   }
 });
 client10.on("message", message => {
@@ -261,7 +261,7 @@ client10.on("message", message => {
  
   if (command === "say") {
           message.delete()
-    message.channel.send(args.join(" ")).catch(console.error);
+    message.channel.send(args.join(" ")).catch(console.err);
   }
 });
 
