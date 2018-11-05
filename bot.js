@@ -63,6 +63,50 @@ client7.on("message", message => {
 
 
 
+
+
+client1.on("message", message => {
+    if(message.content === `${prefix1}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client2.on("message", message => {
+    if(message.content === `${prefix2}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client3.on("message", message => {
+    if(message.content === `${prefix3}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client4.on("message", message => {
+    if(message.content === `${prefix4}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client5.on("message", message => {
+    if(message.content === `${prefix5}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client6.on("message", message => {
+    if(message.content === `${prefix6}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client7.on("message", message => {
+    if(message.content === `${prefix7}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+
+
+
+
+
+
+
 client1.on("message", message => {
     if (!message.content.startsWith(prefix1)) return;
     let command = message.content.split(" ")[0];
