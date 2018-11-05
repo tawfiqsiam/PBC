@@ -152,10 +152,10 @@ client7.on("message", message => {
 
 
 
-client1.login("process.env.BOT_TOKEN1")
-client2.login("process.env.BOT_TOKEN2")
-client3.login("process.env.BOT_TOKEN3")
-client4.login("process.env.BOT_TOKEN4")
-client5.login("process.env.BOT_TOKEN5")
-client6.login("process.env.BOT_TOKEN6")
-client7.login("process.env.BOT_TOKEN7")
+client1.login(process.env.BOT_TOKEN1)
+client2.login(process.env.BOT_TOKEN2)
+client3.login(process.env.BOT_TOKEN3)
+client4.login(process.env.BOT_TOKEN4)
+client5.login(process.env.BOT_TOKEN5)
+client6.login(process.env.BOT_TOKEN6)
+client7.login(process.env.BOT_TOKEN7)
