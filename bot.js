@@ -9,6 +9,16 @@ const client7 = new Discord.Client()
 const client8 = new Discord.Client()
 const client9 = new Discord.Client()
 const client10 = new Discord.Client()
+const client11 = new Discord.Client()
+const client12 = new Discord.Client()
+const client13 = new Discord.Client()
+const client14 = new Discord.Client()
+const client15 = new Discord.Client()
+const client16 = new Discord.Client()
+const client17 = new Discord.Client()
+const client18 = new Discord.Client()
+const client19 = new Discord.Client()
+const client20 = new Discord.Client()
 var prefix1 = "1"
 var prefix2 = "2"
 var prefix3 = "3"
@@ -19,6 +29,17 @@ var prefix7 = "7"
 var prefix8 = "8"
 var prefix9 = "9"
 var prefix10 = "10"
+var prefix11 = "11"
+var prefix12 = "12"
+var prefix13 = "13"
+var prefix14 = "14"
+var prefix15 = "15"
+var prefix16 = "16"
+var prefix17 = "17"
+var prefix18 = "18"
+var prefix19 = "19"
+var prefix20 = "20"
+
 
 
 client1.on("ready", async() => {console.log(` _ ${client1.user.username} _ is Ready`)});
@@ -31,6 +52,16 @@ client7.on("ready", async() => {console.log(` _ ${client7.user.username} _ is Re
 client8.on("ready", async() => {console.log(` _ ${client8.user.username} _ is Ready`)});
 client9.on("ready", async() => {console.log(` _ ${client9.user.username} _ is Ready`)});
 client10.on("ready", async() => {console.log(` _ ${client10.user.username} _ is Ready`)});
+client11.on("ready", async() => {console.log(` _ ${client11.user.username} _ is Ready`)});
+client12.on("ready", async() => {console.log(` _ ${client12.user.username} _ is Ready`)});
+client13.on("ready", async() => {console.log(` _ ${client13.user.username} _ is Ready`)});
+client14.on("ready", async() => {console.log(` _ ${client14.user.username} _ is Ready`)});
+client15.on("ready", async() => {console.log(` _ ${client15.user.username} _ is Ready`)});
+client16.on("ready", async() => {console.log(` _ ${client16.user.username} _ is Ready`)});
+client17.on("ready", async() => {console.log(` _ ${client17.user.username} _ is Ready`)});
+client18.on("ready", async() => {console.log(` _ ${client18.user.username} _ is Ready`)});
+client19.on("ready", async() => {console.log(` _ ${client19.user.username} _ is Ready`)});
+client20.on("ready", async() => {console.log(` _ ${client20.user.username} _ is Ready`)});
 
 
 
@@ -81,6 +112,56 @@ client9.on("message", message => {
 });
 client10.on("message", message => {
     if(message.content === `${prefix10}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client11.on("message", message => {
+    if(message.content === `${prefix11}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client12.on("message", message => {
+    if(message.content === `${prefix12}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client13.on("message", message => {
+    if(message.content === `${prefix13}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client14.on("message", message => {
+    if(message.content === `${prefix14}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client15.on("message", message => {
+    if(message.content === `${prefix15}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client16.on("message", message => {
+    if(message.content === `${prefix16}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client17.on("message", message => {
+    if(message.content === `${prefix17}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client18.on("message", message => {
+    if(message.content === `${prefix18}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client19.on("message", message => {
+    if(message.content === `${prefix19}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client20.on("message", message => {
+    if(message.content === `${prefix20}d`) {
         message.channel.send(`#daily`)
     }
 });
@@ -138,6 +219,57 @@ client10.on("message", message => {
         message.channel.send(`#credits`)
     }
 });
+client11.on("message", message => {
+    if(message.content === `${prefix11}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client12.on("message", message => {
+    if(message.content === `${prefix12}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client13.on("message", message => {
+    if(message.content === `${prefix13}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client14.on("message", message => {
+    if(message.content === `${prefix14}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client15.on("message", message => {
+    if(message.content === `${prefix15}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client16.on("message", message => {
+    if(message.content === `${prefix16}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client17.on("message", message => {
+    if(message.content === `${prefix17}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client18.on("message", message => {
+    if(message.content === `${prefix18}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client19.on("message", message => {
+    if(message.content === `${prefix19}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client20.on("message", message => {
+    if(message.content === `${prefix20}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+
 
 
 
@@ -264,6 +396,126 @@ client10.on("message", message => {
     message.channel.send(args.join(" ")).catch(console.err);
   }
 });
+client11.on("message", message => {
+    if (!message.content.startsWith(prefix11)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix11.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client12.on("message", message => {
+    if (!message.content.startsWith(prefix12)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix12.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client13.on("message", message => {
+    if (!message.content.startsWith(prefix13)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix13.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client14.on("message", message => {
+    if (!message.content.startsWith(prefix14)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix14.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client15.on("message", message => {
+    if (!message.content.startsWith(prefix15)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix15.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client16.on("message", message => {
+    if (!message.content.startsWith(prefix16)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix16.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client17.on("message", message => {
+    if (!message.content.startsWith(prefix17)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix17.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client18.on("message", message => {
+    if (!message.content.startsWith(prefix18)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix18.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client19.on("message", message => {
+    if (!message.content.startsWith(prefix19)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix19.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
+client20.on("message", message => {
+    if (!message.content.startsWith(prefix20)) return;
+    let command = message.content.split(" ")[0];
+  command = command.slice(prefix20.length);
+ 
+  let args = message.content.split(" ").slice(1);
+ 
+  if (command === "say") {
+          message.delete()
+    message.channel.send(args.join(" ")).catch(console.err);
+  }
+});
 
 
 
@@ -280,3 +532,13 @@ client7.login(process.env.BOT_TOKEN7)
 client8.login(process.env.BOT_TOKEN8)
 client9.login(process.env.BOT_TOKEN9)
 client10.login(process.env.BOT_TOKEN10)
+client11.login(process.env.BOT_TOKEN11)
+client12.login(process.env.BOT_TOKEN12)
+client13.login(process.env.BOT_TOKEN13)
+client14.login(process.env.BOT_TOKEN14)
+client15.login(process.env.BOT_TOKEN15)
+client16.login(process.env.BOT_TOKEN16)
+client17.login(process.env.BOT_TOKEN17)
+client18.login(process.env.BOT_TOKEN18)
+client19.login(process.env.BOT_TOKEN19)
+client20.login(process.env.BOT_TOKEN20)
