@@ -24,6 +24,11 @@ const client22 = new Discord.Client()
 const client23 = new Discord.Client()
 const client24 = new Discord.Client()
 const client25 = new Discord.Client()
+var prefixa1 = "a1"
+var prefixa1 = "a2"
+var prefixa3 = "a3"
+var prefixa4 = "a4"
+var prefixa5 = "a5"
 var prefix1 = "1"
 var prefix2 = "2"
 var prefix3 = "3"
@@ -77,6 +82,157 @@ client22.on("ready", async() => {console.log(` _ ${client22.user.username} _ is 
 client23.on("ready", async() => {console.log(` _ ${client23.user.username} _ is Ready`)});
 client24.on("ready", async() => {console.log(` _ ${client24.user.username} _ is Ready`)});
 client25.on("ready", async() => {console.log(` _ ${client25.user.username} _ is Ready`)});
+
+
+
+client1.on("message", message => {
+    if(message.content === `${prefix1}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client2.on("message", message => {
+    if(message.content === `${prefixa1}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client3.on("message", message => {
+    if(message.content === `${prefixa1}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client4.on("message", message => {
+    if(message.content === `${prefixa1}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client5.on("message", message => {
+    if(message.content === `${prefixa1}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+
+
+
+
+client6.on("message", message => {
+    if(message.content === `${prefixa2}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client7.on("message", message => {
+    if(message.content === `${prefixa2}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client8.on("message", message => {
+    if(message.content === `${prefixa2}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client9.on("message", message => {
+    if(message.content === `${prefixa2}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client10.on("message", message => {
+    if(message.content === `${prefixa2}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+
+
+
+
+client11.on("message", message => {
+    if(message.content === `${prefixa3}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client12.on("message", message => {
+    if(message.content === `${prefixa3}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client13.on("message", message => {
+    if(message.content === `${prefixa3}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client14.on("message", message => {
+    if(message.content === `${prefixa3}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client15.on("message", message => {
+    if(message.content === `${prefixa3}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+
+
+
+
+client16.on("message", message => {
+    if(message.content === `${prefixa4}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client17.on("message", message => {
+    if(message.content === `${prefixa4}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client18.on("message", message => {
+    if(message.content === `${prefixa4}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client19.on("message", message => {
+    if(message.content === `${prefixa4}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client20.on("message", message => {
+    if(message.content === `${prefixa4}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+
+
+
+
+client21.on("message", message => {
+    if(message.content === `${prefixa5}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client22.on("message", message => {
+    if(message.content === `${prefixa5}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client23.on("message", message => {
+    if(message.content === `${prefixa5}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client24.on("message", message => {
+    if(message.content === `${prefixa5}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+client25.on("message", message => {
+    if(message.content === `${prefixa5}d`) {
+        message.channel.send(`#daily`)
+    }
+});
+
+
+
+
+
+
+
 
 
 
@@ -205,6 +361,154 @@ client25.on("message", message => {
         message.channel.send(`#daily`)
     }
 });
+
+
+
+
+
+
+client1.on("message", message => {
+    if(message.content === `${prefixa1}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client2.on("message", message => {
+    if(message.content === `${prefixa1}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client3.on("message", message => {
+    if(message.content === `${prefixa1}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client4.on("message", message => {
+    if(message.content === `${prefixa1}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client5.on("message", message => {
+    if(message.content === `${prefixa1}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+
+
+
+
+client6.on("message", message => {
+    if(message.content === `${prefixa2}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client7.on("message", message => {
+    if(message.content === `${prefixa2}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client8.on("message", message => {
+    if(message.content === `${prefixa2}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client9.on("message", message => {
+    if(message.content === `${prefixa2}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client10.on("message", message => {
+    if(message.content === `${prefixa2}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+
+
+
+
+client11.on("message", message => {
+    if(message.content === `${prefixa3}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client12.on("message", message => {
+    if(message.content === `${prefixa3}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client13.on("message", message => {
+    if(message.content === `${prefixa3}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client14.on("message", message => {
+    if(message.content === `${prefixa3}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client15.on("message", message => {
+    if(message.content === `${prefixa3}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+
+
+
+
+client16.on("message", message => {
+    if(message.content === `${prefixa4}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client17.on("message", message => {
+    if(message.content === `${prefixa4}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client18.on("message", message => {
+    if(message.content === `${prefixa4}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client19.on("message", message => {
+    if(message.content === `${prefixa4}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client20.on("message", message => {
+    if(message.content === `${prefixa4}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+
+
+
+
+client21.on("message", message => {
+    if(message.content === `${prefixa5}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client22.on("message", message => {
+    if(message.content === `${prefixa5}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client23.on("message", message => {
+    if(message.content === `${prefixa5}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client24.on("message", message => {
+    if(message.content === `${prefixa5}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+client25.on("message", message => {
+    if(message.content === `${prefixa5}c`) {
+        message.channel.send(`#credits`)
+    }
+});
+
 
 
 
