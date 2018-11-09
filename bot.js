@@ -102,7 +102,7 @@ client30.on("ready", async() => {console.log(` _ ${client30.user.username} _ is 
 
 
 client1.on("message", message => {
-    if(message.content === `${prefix1}d`) {
+    if(message.content === `${prefixa1}d`) {
         message.channel.send(`#daily`)
     }
 });
