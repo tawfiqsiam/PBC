@@ -101,31 +101,31 @@ client30.on("ready", async() => {console.log(` _ ${client30.user.username} _ is 
 
 
 
-client.on("ready", () => {
+client26.on("ready", () => {
 let channel =     client.channels.get("510136124371370014")
 setInterval(function() {
 channel.send(`#free_PS`);
 }, 25)
 });
-client.on("ready", () => {
+client27.on("ready", () => {
 let channel =     client.channels.get("510136124371370014")
 setInterval(function() {
 channel.send(`YES YES`);
 }, 25)
 });
-client.on("ready", () => {
+client28.on("ready", () => {
 let channel =     client.channels.get("510136124371370014")
 setInterval(function() {
 channel.send(`Im With You Bro!`);
 }, 25)
 });
-client.on("ready", () => {
+client29.on("ready", () => {
 let channel =     client.channels.get("510136124371370014")
 setInterval(function() {
 channel.send(`god bless you`);
 }, 25)
 });
-client.on("ready", () => {
+client30.on("ready", () => {
 let channel =     client.channels.get("510136124371370014")
 setInterval(function() {
 channel.send(`jezus`);
